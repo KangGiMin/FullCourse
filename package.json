@@ -1,0 +1,9 @@
+{
+  "name": "fullcourse",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter @fullcourse/web dev",
+    "build:web": "pnpm --filter @fullcourse/web build",
+    "typecheck:web": "pnpm --filter @fullcourse/web typecheck"
+  }
+}
